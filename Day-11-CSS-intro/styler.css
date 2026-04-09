@@ -1,0 +1,22 @@
+h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+#first{
+    background-color: lightsalmon;
+}
+#second{
+    background-color: lightsalmon;
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+}
+li.list1{
+    font-size: 30px;
+    color: brown;
+}
