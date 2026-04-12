@@ -1,0 +1,43 @@
+.container{
+    background-color: cornsilk;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* justifiy content : main axis ke around kaam karna hau */
+/* main axis decide kon karega ? aapka flex direction */
+/* flex-wrap: wrap; iska use reponsive ke liye karege (squeeze hoga */
+
+.box{
+    height: 100px;
+    width: 100px;
+    color: rgb(240, 213, 213);
+    /*flex grow: 1; means khali spaces me se 1 part ye cover karega*/
+}
+
+.first{
+    background-color: red;
+    /*flex grow: 2; means khali spaces me se 2 parts ye cover karega*/
+}
+
+.second{
+    background-color: green;
+    /*flex self: flex-start; apne queue se hat kr upper aa jayega*/
+    /*flex grow: 3; means khali spaces me se sabse bada parts ye cover karega*/
+}
+
+.third{
+    background-color: brown;
+}
+
+.fourth{
+    background-color: cadetblue;
+}
+
+
+/*you can play and learn about css elements on "flexbox froggy".*/
