@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+}
+/* 
+.container{
+    display: flex;
+    background-color: aqua;
+    padding: 5px;
+    gap: 5px;
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+}
+
+.first{
+    background-color: orange;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child{
+    height: 100%;
+    background-color: red;
+}*/
+
+.container{
+    /* padding: 10px; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;                 /* 1fr means 1 fraction*/
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 229, 83);
+}
+
+.first{
+    background-color: blue;
+}
+
+.second{
+    background-color: saddlebrown;
+}
+
+.third{
+    background-color: rgb(21, 158, 80);
+}
+
+.fourth{
+    background-color: rgb(255, 15, 15);
+}
