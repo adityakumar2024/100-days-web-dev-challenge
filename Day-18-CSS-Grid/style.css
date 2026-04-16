@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.container{
+    display: grid;
+    height: 400px;
+    width: 400ox;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+}
+
+.box{
+    background-color: rgb(113, 4, 255);
+    padding: 5px;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    /* grid-row: 2/4;                       also use this for shortcut */
+}
+
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
