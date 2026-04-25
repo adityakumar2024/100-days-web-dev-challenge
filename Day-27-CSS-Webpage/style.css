@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* background-color: beige; */
+}
+
+#right-nav 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    width: 25%;
+    /* background-color: black; */
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    box-shadow:inset 0px 0px 10px 20px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 5px rgb(255, 188, 143);
+    background-color: transparent;
+    border: none;
+}
+
+#center-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+#left-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    /* background-color: antiquewhite; */
+}
+#left-nav img
+{
+    width: 40%;
+}
+#center-nav a
+{
+    text-decoration: none;
+    gap: 20px;
+}
+#center-nav a:hover{
+    text-decoration: underline;
+}
+#right-nav button
+{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.login
+{
+    background-color: black;
+    color: aliceblue;
+}
+#heroSection
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 86%;
+    width: 100%;
+    /* background-color: seagreen; */
+    background-image: url(https://plus.unsplash.com/premium_photo-1676521014947-57c3a756d197?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.heading{
+    width: 70%;
+    color: rgb(245, 212, 141);
+    font-size: 70px;
+    padding: 5px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* word-spacing: 10px; */
+    /* background-color: aqua; */
+}
+#para{
+    height: 10%;
+    width: 50%;
+    color: rgb(218, 213, 209);
+    font-size: 20px;
+    text-align: center;
+}
+#heroSection button 
+{
+    margin-bottom: 23%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+#heroSection img{
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+}
+#secondsection{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(254, 255, 224);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#main1{
+    height: 20%;
+    width: 100%;
+    /* margin: 20%; */
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 5%;
+    object-fit: contain;
+}
+#para1{
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
