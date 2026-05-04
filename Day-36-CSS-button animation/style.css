@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+}
+#square #rect{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#img {
+    height: 100%;
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+
+#square #img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+#img2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(7, 239, 247); */
+}
+#square #img2 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#square #rect1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    /* background-color: burlywood; */
+}
+#img3{
+    height: 100%;
+    width: 50%;
+    
+    /* background-color: rgb(97, 102, 103); */
+}
+#square #img3 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#img4{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(1, 20, 21); */
+}
+#square #img4 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+#square {
+    height: 52%;
+    width: 40%;
+    /* background-color: aqua; */
+    /* border: 4px solid white; */
+}
+
+#square:hover #img img {
+    transform: translate(-10px, -10px);
+}
+
+#square:hover #img2 img {
+    transform: translate(10px, -10px);
+}
+
+#square:hover #img3 img {
+    transform: translate(-10px, 10px);
+}
+
+#square:hover #img4 img {
+    transform: translate(10px, 10px);
+}
+button{
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border-color: rgb(250, 134, 57);
+    background-color: rgba(218, 165, 32, 0.838);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
