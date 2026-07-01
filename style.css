@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 100%;
+    /* background-color: magenta; */
+}
+#box .square{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 174, 0);
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+    color: white;
+    height: 10%;
+    width: 50%;
+    border-radius: 20px;
+    /* background-color: aqua; */
+    border: none;
+}
+#button1{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+#button2{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+#button3{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+#button4{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+#button5{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
