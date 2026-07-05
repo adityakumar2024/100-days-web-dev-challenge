@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+    transition: 0.5s;
+}
+.section{
+    padding: 0% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgba(200, 194, 194, 0.874); */
+    /* background-color: brown; */
+}
+.box{
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 540px;
+    width: 400px;
+}
+#content{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    height: 400px;
+    width: 340px;
+    background-color: rgba(229, 229, 239, 0.763);
+}
+h1{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    padding: 20px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: start;
+    padding: 10px 20px;
+}
+#box1{
+    background-image: url(https://images.unsplash.com/photo-1609692814858-f7cd2f0afa4f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#box2{
+    background-image: url(https://images.unsplash.com/photo-1738830246146-599b67d009db?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+} 
+#box3{
+    background-image: url(https://images.unsplash.com/photo-1668064908750-c117aa900d47?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
